@@ -10,7 +10,7 @@ cask "freelens" do
          x86_64_linux: "5be46890eb13e167559b862b9a6f246eeec0a72761c0b3e91a646329323581e9"
 
   on_macos do
-    depends_on macos: :monterey
+    depends_on macos: :ventura
 
     app "Freelens.app"
 
